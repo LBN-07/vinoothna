@@ -1,0 +1,253 @@
+body {
+    background-color: rgb(8, 14, 1);
+    background-image: url("./images/WhatsApp\ Image\ 2024-11-12\ at\ 5.29.15\ PM.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container,.container2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 100px;
+}
+
+#vinu1, #vinu2,#vinu3,#vinu4 {
+    width: 45%;
+    padding: 20px;
+    color: black;
+    font-size: 1.2em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    gap:100px;
+}
+
+#vinu1 {
+    background-image: url("./images/WhatsApp\ Image\ 2024-11-12\ at\ 11.33.50\ PM\ \(1\).jpeg");
+}
+
+#vinu2 {
+    background-image: url("./images/WhatsApp\ Image\ 2024-11-12\ at\ 4.59.09\ PM.jpeg");
+}
+#vinu3{
+    background-image: url("./images/vinu4.jpeg");
+}
+#vinu4{
+    background-image: url("./images/vinu5.jpeg");
+}
+
+.container h2,.container2 h2 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container p,.container2 p {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(8, 14, 1);
+    background-image: url("./images/WhatsApp\ Image\ 2024-11-12\ at\ 5.29.15\ PM.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container .container2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.slideshow {
+    width: 30%;
+    padding: 20px;
+    color: black;
+    font-size: 1.2em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.5s, filter 0.5s;
+}
+.slideshow1{
+    width: 30%;
+    padding: 20px;
+    color: black;
+    font-size: 1.2em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.5s, filter 0.5s;
+}
+.slideshow:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.container .slideshow:not(:hover) {
+    filter: blur(4px);
+    transform: scale(0.9);
+}
+#vinu1:hover{
+    transform: scale(1.2);
+    z-index: 1;
+
+}
+#vinu1 .slideshow:not(:hover){
+    filter: blur(4px);
+    transform: scale(0.9);
+}
+#vinu1{
+    cursor: 10px;
+}
+@media(max-width: 375px) {
+    h1 {
+        font-size: 1.2em; 
+    }
+
+    .slideshow {
+        width: 100%; 
+        padding: 10px; 
+        font-size: 0.9em; 
+    }
+
+ 
+    .container {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.container2{
+    display: flex;
+    justify-content: center;
+
+}
+#vinu4{
+    backdrop-filter: blur("45px");
+}
+.container2 .slideshow:not(:hover) {
+    filter: blur(4px);
+    transform: scale(0.9);
+}
+.container #vinu1:not(:hover){
+    filter: blur(4px);
+    transform: scale(0.9);
+}
+#vinu4{
+    object-fit: cover;
+}
+.button a{
+
+   text-align: center;
+}
+
+body {
+    background-color: rgb(8, 14, 1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e91e63;
+    transform: scale(1.1);
+}
+
+.message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: white;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#loveMessage{
+    font-size: 20px;
+    padding: 20px;
+   text-decoration: none;
+   color: black;
+}

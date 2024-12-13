@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.access-check{
+    margin-top: 225px;
+    background-color: rgb(187, 203, 186);
+    padding: 100px;
+    border-radius: 50px;;
+    position: relative;
+}
+h1{
+    color: azure;
+}
+#accessButton{
+    font-size: large;
+    border-radius: 20px;
+}
+.access-check::after{
+    content: "";
+    position: absolute;
+    height: 101%;
+    width: 100%;
+    background-image: conic-gradient(red,rgb(2, 243, 2),rgb(12, 183, 158),rgb(218, 225, 14));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 50px;
+}
+.access-check::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
